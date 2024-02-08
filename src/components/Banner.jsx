@@ -22,32 +22,12 @@ const Banner = () => {
         hide ? "hidden" : "block"
       } absolute h-20 top-0 left-0 z-50 flex justify-between w-full p-4 bg-primary shadow-md opacity-[0.98]`}
     >
-      <div className="flex items-center mx-auto">
+      {/* <div className="flex items-center mx-auto">
         <p className="flex items-center text-sm font-normal text-gray-500 ">
-          <span className="inline-flex p-1 mr-3 bg-gray-200 rounded-full ">
-            <img
-              src={bulb}
-              alt="bulb"
-              height={12}
-              width={12}
-              className="text-gray-500"
-            />
-            <span className="sr-only">Light bulb</span>
-          </span>
-          <span>
-            Did you like this portfolio. Check out my{" "}
-            <Link
-              to="https://www.sanidhy.me/"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="inline font-medium text-blue-600 underline underline-offset-2 decoration-600 hover:no-underline"
-            >
-              new portfolio
-            </Link>
-            .
-          </span>
+         
+          
         </p>
-      </div>
+      </div> */}
       <div className="flex items-center">
         <button
           data-dismiss-target="#sticky-banner"
