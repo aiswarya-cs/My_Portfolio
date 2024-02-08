@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { logo_name } from "../constants";
 import { cn } from "../utils/lib";
 
 // Navbar
@@ -29,7 +30,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src='/public/logo.svg' alt="Logo" className="w-14 h-12 object-contain" />
+          <img src={logo_name} alt="Logo" className="w-14 h-14 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Aiswarya&nbsp;<span className="sm:block hidden">| Developer</span>
           </p>

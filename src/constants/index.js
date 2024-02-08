@@ -40,9 +40,9 @@ import {
 
 import Youtubeimg from "../assets//Youtubeimg.png";
 import Travel from '../assets//Travel.png'
-import logoo from '../assets//logoo.svg';
+import logo_name from "../assets//logo_name.svg"
 import LinkedIn from '../assets//LinkedIn.svg';
-export {logoo};
+export {logo_name};
 
 // Navbar Links
 export const navLinks = [
