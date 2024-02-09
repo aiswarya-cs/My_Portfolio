@@ -125,7 +125,7 @@ const experiences = [
     company_name: "H2",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "April 2023 - january 2024",
+    date: "May 2023 - Decement 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Handled frontend technologies with Reactjs, Tailwind css, Redux Toolkit.",
