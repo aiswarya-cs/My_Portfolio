@@ -43,6 +43,8 @@ import Travel from '../assets//Travel.png'
 import logo_name from "../assets//logo_name.svg"
 import LinkedIn from '../assets//LinkedIn.svg';
 export {logo_name};
+import Boostrap from "../assets/tech/Boostrap.png";
+import netflix from "../assets/netflix.png";
 
 // Navbar Links
 export const navLinks = [
@@ -115,7 +117,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  
+  {
+    name: "boostrap",
+    icon : Boostrap,
+  },
+  {
+    name:"figma",
+    icon:figma
+  }
 ];
 
 // Experiences
@@ -125,7 +134,7 @@ const experiences = [
     company_name: "H2",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "May 2023 - Decement 2023",
+    date: "May 2023 - December 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Handled frontend technologies with Reactjs, Tailwind css, Redux Toolkit.",
@@ -167,9 +176,9 @@ const testimonials = [
 // Projects
 const projects = [
   {
-    name: "Youtube Clone With Live Chat",
+    name: "STREAMSYNC",
     description:
-      "YouTube clone incorporating the YouTube API, I've integrated live chat functionality, Togglebar, nested Comments,Shimmer UI .",
+      "Streamsync clone incorporating the YouTube API, I've integrated live chat functionality, Togglebar, nested Comments,Shimmer UI .   API POLLING , API INTERATION",
     tags: [
       {
         name: "react",
@@ -189,9 +198,9 @@ const projects = [
     live_site_link: "https://wondrous-wisp-8b7d2b.netlify.app",
   },
   {
-    name: "Travel Tour website",
+    name: "GLOBETREK ADVENTURES",
     description:
-      "Website utilizing React, AOS library, and SCSS.This website that enable all of the most famous places to visit.Animated scrolling to enhance user engagement using Aos library , fully responsive using SCSS.",
+      "Website utilizing React, AOS library, and SCSS.This website that enable all of the most famous places to visit.Animated scrolling to enhance user engagement using Aos library.",
     tags: [
       {
         name: "react",
@@ -210,28 +219,28 @@ const projects = [
     source_code_link: "https://github.com/aiswarya-cs/Travel_Tour",
     live_site_link: "https://travelworld-067f28.netlify.app/",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "syncfusion",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: project3,
-  //   source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-  //   live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  // },
+  {
+    name: "Cinemix - A Netflix Clone",
+    description:
+      "A Netflix clone is a streaming platform designed to replicate the features and functionalities of the popular online streaming service Cinemix.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Boostrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "UseContext",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/aiswarya-cs/Cinemix--A-Netflix-Clone.git",
+    live_site_link: "https://github.com/aiswarya-cs/Cinemix--A-Netflix-Clone.git",
+  },
   
 ];
 
