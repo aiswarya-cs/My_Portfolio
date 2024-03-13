@@ -134,11 +134,11 @@ const experiences = [
     company_name: "H2",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "May 2023 - December 2023",
+    date: "August 2023 - January 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Handled frontend technologies with Reactjs, Tailwind css, Redux Toolkit.",
-      "Gained valuable honed  expertise in HTML, CSS, JavaScript, React, Tailwind CSS, and Redux-toolkit through hands-on involvement in e-commerce projects.",
+      "Gained valuable honed  expertise in HTML, CSS, JavaScript, React, Tailwind CSS, and Redux-toolkit through hands-on involvement in real time webapplication projects.",
       "Used git as a Version Control System.",
     ],
   },
